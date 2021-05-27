@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>7-Segment Display</title>
+
+        <!-- P5 Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+        
+        <!-- Resources -->
+        <script src="js/script.js"></script>
+        <script src="js/segments.js"></script>
+        <script src="js/buttons.js"></script>
+        <link rel ="stylesheet" href ="style.css">
+    </head>
+    <body>
+        <input type="button" value="OFF: Black" onclick="toggleColor()" class="button bigButton rightButton" id="but1Val">
+        <input type="button" value="Start"      onclick="toggleLoop()"  class="button bigButton" id="but2Val"><br>
+        <input type="button" value="Count Down" onclick="toggleCount()" class="button bigButton" id="but3Val"><br>
+        <input type="button" value="Speed: 1x"  onclick="toggleSpeed()" class="button bigButton" id="but4Val"><br>
+        
+        <input type="button" value="1" onclick="insertNum(1)" class="button smallButton" id="newButtonRow">
+        <input type="button" value="2" onclick="insertNum(2)" class="button smallButton" id="newButtonRow"><br>
+        <input type="button" value="3" onclick="insertNum(3)" class="button smallButton">
+        <input type="button" value="4" onclick="insertNum(4)" class="button smallButton"><br>
+        <input type="button" value="5" onclick="insertNum(5)" class="button smallButton">
+        <input type="button" value="6" onclick="insertNum(6)" class="button smallButton"><br>
+        <input type="button" value="7" onclick="insertNum(7)" class="button smallButton">
+        <input type="button" value="8" onclick="insertNum(8)" class="button smallButton"><br>
+        <input type="button" value="9" onclick="insertNum(9)" class="button smallButton">
+        <input type="button" value="0" onclick="insertNum(0)" class="button smallButton"><br>
+    </body>
+</html>
