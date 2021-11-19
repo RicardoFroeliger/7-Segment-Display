@@ -1,1 +1,2 @@
-# P5.js 7 Segment Display<br>Created by Ricardo Froeliger
+# P5.js: 7 Segment Display
+## Created by Ricardo Froeliger
